@@ -9,17 +9,17 @@ const candies = [{
   name: 'Skittles',
   description: 'Taste the rainbow',
   quantity: 2,
-  imageUrl: 'https://target.scene7.com/is/image/Target/GUEST_3d2a8073-36e6-4cec-8c8c-872639105820?wid=488&hei=488&fmt=pjpeg'
+  imageUrl: 'http://pluspng.com/img-png/png-skittles--400.png'
 }, {
   name: 'KitKat',
   description: 'Make the most of your break',
   quantity: 5,
-  imageUrl: 'https://target.scene7.com/is/image/Target/GUEST_9766bfa7-3fcb-4f4c-9576-15e17ccc1044?wid=488&hei=488&fmt=pjpeg'
+  imageUrl: 'https://www.kitkat.co.uk/content/content/img/range/4-finger-milk.png'
 }, {
   name: 'M&M',
   description: 'Melts in your mouth, not in your hand',
   quantity: 4,
-  imageUrl: 'http://www.ocsaccess.com/admin/clientfiles/ucsne/images/xlarge/mm%20choc.jpg'
+  imageUrl: 'https://pbs.twimg.com/media/DXOHG0zX4AAhZ1i.png'
 }];
 
 const seed = async () => {
