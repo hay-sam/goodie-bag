@@ -20,6 +20,54 @@ const candies = [{
   description: 'Melts in your mouth, not in your hand',
   quantity: 4,
   imageUrl: 'https://pbs.twimg.com/media/DXOHG0zX4AAhZ1i.png'
+},
+{
+  name: 'Skittles',
+  description: 'Taste the rainbow',
+  quantity: 2,
+  imageUrl: 'http://pluspng.com/img-png/png-skittles--400.png'
+}, {
+  name: 'KitKat',
+  description: 'Make the most of your break',
+  quantity: 5,
+  imageUrl: 'https://www.kitkat.co.uk/content/content/img/range/4-finger-milk.png'
+}, {
+  name: 'M&M',
+  description: 'Melts in your mouth, not in your hand',
+  quantity: 4,
+  imageUrl: 'https://pbs.twimg.com/media/DXOHG0zX4AAhZ1i.png'
+},
+{
+  name: 'Skittles',
+  description: 'Taste the rainbow',
+  quantity: 2,
+  imageUrl: 'http://pluspng.com/img-png/png-skittles--400.png'
+}, {
+  name: 'KitKat',
+  description: 'Make the most of your break',
+  quantity: 5,
+  imageUrl: 'https://www.kitkat.co.uk/content/content/img/range/4-finger-milk.png'
+}, {
+  name: 'M&M',
+  description: 'Melts in your mouth, not in your hand',
+  quantity: 4,
+  imageUrl: 'https://pbs.twimg.com/media/DXOHG0zX4AAhZ1i.png'
+},
+{
+  name: 'Skittles',
+  description: 'Taste the rainbow',
+  quantity: 2,
+  imageUrl: 'http://pluspng.com/img-png/png-skittles--400.png'
+}, {
+  name: 'KitKat',
+  description: 'Make the most of your break',
+  quantity: 5,
+  imageUrl: 'https://www.kitkat.co.uk/content/content/img/range/4-finger-milk.png'
+}, {
+  name: 'M&M',
+  description: 'Melts in your mouth, not in your hand',
+  quantity: 4,
+  imageUrl: 'https://pbs.twimg.com/media/DXOHG0zX4AAhZ1i.png'
 }];
 
 const seed = async () => {

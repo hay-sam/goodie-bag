@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router, Route, Link} from "react-router-dom"
 import Home from "./Home"
 import CandyList from "./CandyList"
+import SingleCandy from "./SingleCandy"
 
 
 const Root = () => {
@@ -16,7 +17,8 @@ const Root = () => {
       <main>
         <h1>Welcome to the Goodie Bag!</h1>
         <Route exact path="/" component={Home} />
-        <Route path="/candies" component={CandyList} />
+        <Route exact path="/candies" component={CandyList} />
+        <Route path="/candies/:id" component={SingleCandy} />
       </main>
     </div>
     </Router>

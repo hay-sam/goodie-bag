@@ -1,6 +1,7 @@
 import React from "react"
 import {connect} from "react-redux"
 import {getAllCandy} from "../reducers/index"
+import {Link} from "react-router-dom"
 
 // const candies = [{
 //   name: 'Skittles',
@@ -23,17 +24,20 @@ class CandyList extends React.Component{
 
   render() {
     const {candies} = this.props
+    console.log(candies)
     return (
     <div className="allCandy">
     {candies.map(candy => {
-      console.log(candy)
+      //console.log(candy)
       return (
-      <div className ="oneCandy" key={candy.name}>
-        <p className="candyName">{candy.name}</p>
-        <img src={candy.imageUrl} className="oneCandyImg"/>
-        <p className="candyQuantity">Quantity: {candy.quantity}</p>
-        <p className="candyDescription">{candy.description}</p>
-      </div>
+      <Link key={candy.id} to={`/candies/${candy.id}`}  style={{ textDecoration: 'none', color:'white', alignSelf: "stretch"}} className ="oneCandy">
+        <div  >
+          <p className="candyName">{candy.name}</p>
+          <img src={candy.imageUrl} className="oneCandyImg" />
+          <p className="candyQuantity">Quantity: {candy.quantity}</p>
+          <p className="candyDescription">{candy.description}</p>
+        </div>
+      </Link>
       )
     })}
     </div>
